@@ -1,0 +1,31 @@
+footer {
+  @include flex(row, center, space-around);
+  background-color: chartreuse;
+  height: 8rem;
+  .socials {
+    .fab {
+      margin-right: 1rem;
+      font-size: 3rem;
+    }
+  }
+  nav {
+    height: 100%;
+    padding: 0.5rem;
+    ul {
+      height: 100%;
+      list-style: none;
+      @include flex(column, center, space-around);
+      li {
+        height: 2rem;
+        a {
+          display: block;
+          text-decoration: none;
+          text-align: center;
+          height: 100%;
+          line-height: 2rem;
+          background-color: azure;
+        }
+      }
+    }
+  }
+}
