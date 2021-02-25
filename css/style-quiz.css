@@ -16,6 +16,10 @@
           overflow: hidden;
           margin: 0;
         }
+
+        .bg-img {
+            background-color: url("/assets");
+        }
         
         .quiz-container {
           background-color: #fff;
