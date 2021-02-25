@@ -1,8 +1,10 @@
 import {geo} from "./data"
 
-
+const labels = document.getElementsByTagName("label");
+const labelsArr = Array.from(labels);
 
 function questions(geo){
-    const question = geo.question;
-    const 
+    labelsArr.forEach(el => {
+        e
+    })
 }
