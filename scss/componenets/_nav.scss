@@ -1,0 +1,29 @@
+header {
+  height: 8rem;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  nav {
+    @include flex(row, center, space-between);
+    height: 100%;
+    padding: 1rem 1rem;
+    background: $bgColor;
+    .nav__login {
+      @include flex(row, center, center);
+      a {
+        @extend %a;
+        width: 8rem;
+
+        background-color: $primary;
+        margin-left: 0.5rem;
+
+        color: $textColor;
+      }
+    }
+    .nav__logo {
+      a {
+        @extend %a;
+      }
+    }
+  }
+}

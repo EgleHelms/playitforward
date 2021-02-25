@@ -1,0 +1,23 @@
+.hero {
+  height: 80vh;
+  @include flex(column, center, center);
+  background-color: khaki;
+  color: $textColor;
+  padding: 1rem;
+  a {
+    @extend %a;
+    width: 12rem;
+    height: 4rem;
+    background-color: $primary;
+    margin-left: 0.5rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #fff;
+  }
+  p {
+    width: 50%;
+    margin: 3rem 0;
+    text-align: center;
+  }
+}

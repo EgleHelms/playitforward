@@ -1,4 +1,4 @@
-.hero a, header nav .nav__logo a, header nav .nav__login a {
+header nav .nav__logo a, header nav .nav__login a {
   display: block;
   text-decoration: none;
   height: 4rem;
@@ -70,81 +70,15 @@ header nav .nav__login a {
   margin-left: 0.5rem;
   color: black;
 }
-.hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: khaki;
-  color: black;
-  padding: 1rem;
+.acievements {
+  min-height: 100vh;
+  background-color: bisque;
 }
-.hero a {
-  width: 12rem;
-  height: 4rem;
-  background-color: blue;
-  margin-left: 0.5rem;
-  border-radius: 10rem;
-  text-align: center;
-  line-height: 4rem;
-  color: #fff;
-}
-.hero p {
-  width: 50%;
-  margin: 3rem 0;
-  text-align: center;
+.acievements .achievment__visual {
+  height: 40vh;
+  background-color: brown;
 }
 
-.stories, .games {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: antiquewhite;
-  padding: 2rem 2rem;
-}
-.stories h2, .games h2 {
-  margin: 1rem auto;
-}
-.stories p, .games p {
-  text-align: center;
-  margin: 2rem auto;
-}
-.stories img, .games img {
-  display: block;
-  margin-bottom: 2rem;
-  width: 80%;
-  margin: 0 auto 2rem auto;
-  border-radius: 2rem;
-}
-
-.games {
-  background-color: burlywood;
-}
-.games h2 {
-  margin: 2rem auto;
-}
-
-@media (min-width: 768px) {
-  .stories, .games {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .stories img, .games img {
-    width: 80%;
-  }
-  .stories h2, .games h2 {
-    width: 100%;
-  }
-  .stories p, .games p {
-    width: 100%;
-  }
-}
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -162,4 +96,15 @@ body {
   font-size: 1.6rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+main {
+  padding: 2rem;
+}
+main h1 {
+  padding: 0.5rem;
+  width: 25rem;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=user.css.map */
