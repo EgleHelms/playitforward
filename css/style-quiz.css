@@ -10,7 +10,7 @@
           background-image: url("../assets/ruthie-a6mfMjCFkII-unsplash.jpg");
           background-size: cover;
           /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%); */
-          font-family: "Poppins", sans-serif;
+          font-family: 'Rubik', sans-serif;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -73,4 +73,51 @@
           background-color: #5e3370;
         }
 
+        .hide {
+            display: none;
+        }
+
+
+        .progress {
+            margin: 10px 0;
+            background: inherit;
+            grid-row: 2;
+            padding: 10px;
+            
+            grid-column: span 5;
+          }
+          .progress > p {
+            background: inherit;
+            margin-bottom: 5px;
+            opacity: 0.9;
+            font-size: 0.95em;
+            line-height: 1.25em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
         
+          p > span {
+             line-height: 1.25em;
+             margin-top: 2%;
+             font-size: 0.85em;
+             color: rgba(99, 99, 99, 0.8);
+              background: inherit;
+            
+              }
+          .value {
+            vertical-align: text-top;
+             width: -webkit-fill-available;
+              -webkit-appearance: none;
+              appearance: none;
+              border:none;
+              border-radius:10px;  
+              height:10px;
+          }
+          .progress ::-webkit-progress-bar {
+                border-radius: 10px;
+                background-color:  rgba(99, 99, 99, 0.5);
+              }  
+             .progress ::-webkit-progress-value{
+               border-radius: 10px;
+              }

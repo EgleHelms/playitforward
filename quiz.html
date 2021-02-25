@@ -12,6 +12,7 @@
         <div class="quiz-container" id="quiz">
             <div class="quiz-header">
               <h2 id="question">Question is loading...</h2>
+              <img>
               <ul>
                 <li>
                   <input type="radio" name="answer" id="a" class="answer" />
@@ -31,9 +32,23 @@
                 </li>
               </ul>
             </div>
-            <button id="submit">Submit</button>
+            <button id="submit">SUBMIT</button>
+
+            <div class='progress'>
+                <p>Progress <span>6/10</span></p>
+              <progress id="progress" class="value" max="5" value="0"> </progress>
+              </div>
+
+            <div id="popup-yes" class="hide transition">
+                <h2>Nice work!</h2>
+                <p>Keep going to donate more!</p>
+            </div>
+            <div id="popup-no" class="hide transition">
+                <h2>Incorrect.</h2>
+                <p>Focus. You can do it!</p>
+            </div>
           </div>
     </div>
-      <script src="script.js"></script>
+        <script src="./js/index.js"></script>
 </body>
 </html>
