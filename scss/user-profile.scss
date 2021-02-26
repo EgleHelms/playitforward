@@ -3,7 +3,7 @@
 @import "../scss/componenets/footer";
 @import "../scss/componenets/nav";
 @import "../scss/layout/categories";
-:root  {
+:root {
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -18,4 +18,31 @@
 
 body {
   font-size: 1.6rem;
+  font-family: $font-text;
+}
+.map {
+  width: 90%;
+  margin: auto;
+}
+.achievment__funds {
+  h3 {
+    color: $primary;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  ul {
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    @include flex(column, flex-start, center);
+    li {
+      text-align: left;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      .fas {
+        margin-right: 0.5rem;
+      }
+    }
+  }
 }

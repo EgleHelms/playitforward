@@ -33,6 +33,12 @@ header {
       }
     }
     .nav__user {
+      span {
+        position: absolute;
+        right: 12rem;
+        font-size: 4rem;
+        color: rgb(101, 168, 0);
+      }
       a {
         @extend %a;
         width: 10rem;

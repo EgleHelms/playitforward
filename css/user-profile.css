@@ -87,6 +87,12 @@ header nav .nav__login a:first-of-type {
   border: 1px solid #1592ff;
   padding: 0 1rem;
 }
+header nav .nav__user span {
+  position: absolute;
+  right: 12rem;
+  font-size: 4rem;
+  color: #65a800;
+}
 header nav .nav__user a {
   width: 10rem;
   height: 4rem;
@@ -120,11 +126,10 @@ header nav .nav__logo a img {
   min-width: 35rem;
   margin: 1rem auto;
   text-align: center;
-  background-color: blanchedalmond;
   width: 90%;
 }
 .categories .category h2 {
-  transform: translate(-50%, -50%);
+  margin-bottom: 2rem;
   text-align: center;
   height: 5rem;
   font-size: 4rem;
@@ -135,6 +140,7 @@ header nav .nav__logo a img {
   width: 100%;
   height: 100%;
   text-decoration: none;
+  text-align: center;
   color: #ff0404;
 }
 .categories .category a {
@@ -149,17 +155,48 @@ header nav .nav__logo a img {
 }
 
 .info {
+  margin: 5rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.info__testimonial, .info__rank {
+.info__testimonial {
+  background-color: #faebd7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 90%;
   margin: 1rem auto;
-  height: 30vh;
-  background-color: cadetblue;
+  padding: 2rem;
+  gap: 1rem;
 }
+.info__testimonial p {
+  width: 90%;
+}
+.info__testimonial cite {
+  display: block;
+  margin-top: 1rem;
+}
+.info__testimonial img {
+  max-width: 90%;
+}
+.info__rank {
+  margin: 2rem;
+}
+.info__rank ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__rank ul li {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 @media (min-width: 768px) {
   .categories {
     display: flex;
@@ -170,6 +207,19 @@ header nav .nav__logo a img {
   }
   .categories .category {
     width: 40%;
+  }
+
+  .info__testimonial {
+    flex-direction: row;
+  }
+  .info__testimonial p {
+    width: 50%;
+  }
+  .info__testimonial img {
+    width: 40%;
+  }
+  .info__rank ul {
+    flex-direction: row;
   }
 }
 :root {
@@ -187,6 +237,36 @@ header nav .nav__logo a img {
 
 body {
   font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+}
+
+.map {
+  width: 90%;
+  margin: auto;
+}
+
+.achievment__funds h3 {
+  color: #1592ff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.achievment__funds ul {
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.achievment__funds ul li {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.achievment__funds ul li .fas {
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=user-profile.css.map */
