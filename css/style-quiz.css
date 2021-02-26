@@ -65,8 +65,13 @@
         }
         
         .quiz-header {
-          padding: 4rem;
+          padding: 2rem;
         }
+
+        .quiz-header h2{
+          padding: 2rem;
+        }
+
         
         h2 {
           padding: 1rem;
@@ -97,7 +102,7 @@
           cursor: pointer;
           font-size: 1.1rem;
           font-family: inherit;
-          padding: 1.3rem;
+          padding: 1rem;
         }
         
         button:hover {
@@ -114,7 +119,6 @@
 
 
         .progress {
-            margin: 10px 0;
             background: inherit;
             grid-row: 2;
             padding: 10px;
@@ -170,8 +174,8 @@
                 border-radius: 10px;;
                 position: absolute;
                 right: -30vh;
-                width: 30vh;
-                height: 80vh;
+                width: 30vw;
+                height: 70vh;
                 bottom: 10vh;
                 border: 2px solid green;
                 -webkit-animation: slide 0.5s forwards;
@@ -229,7 +233,8 @@
                 background-color: #8fcbfc; 
                 color: white; 
                 border-radius: 10px; 
-                width: 30vh; 
+                width: 30vw;
+                margin: 5px;
                 margin-top: 10px;
               }
 
