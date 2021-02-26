@@ -8,7 +8,7 @@
 }
 
 body {
-  background: grey;
+  background: antiquewhite;
   font-family: 'Lato', sans-serif;
 }
 
@@ -116,7 +116,7 @@ h1 {
         
         body {
           background-color: antiquewhite;
-          background-image: linear-gradient(315deg, antiquewhite 0%, #f5f7fa 100%);
+          background-image: linear-gradient(315deg, rgb(250, 235, 215) 0%, antiquewhite 100%);
 
         }
 
