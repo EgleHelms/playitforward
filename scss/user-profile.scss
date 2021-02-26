@@ -2,9 +2,8 @@
 @import "../scss/base/mixins";
 @import "../scss/componenets/footer";
 @import "../scss/componenets/nav";
-@import "../scss/layout/hero";
-@import "../scss/layout/homeSection";
-:root {
+@import "../scss/layout/categories";
+:root  {
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -19,5 +18,4 @@
 
 body {
   font-size: 1.6rem;
-  font-family: $font-text;
 }

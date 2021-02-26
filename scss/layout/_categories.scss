@@ -1,0 +1,17 @@
+.categories {
+  @include flex(column, center, space-around);
+  padding: 2rem;
+  .category {
+    min-width: 35rem;
+    margin: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 50vh;
+    h2 {
+      position: absolute;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
