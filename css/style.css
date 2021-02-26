@@ -87,6 +87,12 @@ header nav .nav__login a:first-of-type {
   border: 1px solid #1592ff;
   padding: 0 1rem;
 }
+header nav .nav__user span {
+  position: absolute;
+  right: 12rem;
+  font-size: 4rem;
+  color: #65a800;
+}
 header nav .nav__user a {
   width: 10rem;
   height: 4rem;
