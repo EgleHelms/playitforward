@@ -1,13 +1,16 @@
 footer {
   @include flex(row, center, space-around);
   background-color: #fff;
-  border-top: 2px solid $primary;
+
   height: 8rem;
+  color: rgb(78, 76, 76);
 
   .socials {
     .fab {
       margin-right: 1rem;
       font-size: 3rem;
+      cursor: pointer;
+      color: rgb(78, 76, 76);
     }
   }
   .logo {
@@ -23,16 +26,16 @@ footer {
     ul {
       height: 100%;
       list-style: none;
-      @include flex(column, center, space-around);
+      @include flex(column, flex-start, space-around);
       li {
         height: 2rem;
         a {
           display: block;
           text-decoration: none;
-          text-align: center;
+
           height: 100%;
           line-height: 2rem;
-          color: $textColor;
+          color: rgb(78, 76, 76);
         }
       }
     }

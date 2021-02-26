@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,37 +21,60 @@ body {
 
 header {
   background-color: white;
-  margin: 0;
+
+  height: 80px;
+  position: sticky;
+  width: 100%;
+  top: 0;
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+  padding: 10px 10px;
+  background: #fff;
 }
 
-.nav__login {
+header .nav__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
-  width: 10rem;
 }
 
-.nav__login a {
+header .nav__login a {
+  width: 100px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
   background-color: #ed4b4b;
-  width: 10rem;
+
   text-decoration: none;
   color: white;
-  padding: 10px 15px;
-  border-radius: 10px;
+
+  border-radius: 50px;
 }
 
 header img {
-  height: 5rem;
-  margin: 10px;
-  margin-top: 15px;
-  margin-left: 3rem;
+  height: 60px;
 }
-
+header .nav__logo a {
+  display: block;
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 main {
   display: flex;
   align-items: center;
@@ -244,32 +268,47 @@ p {
 }
 
 footer {
-  width: 100vw;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  height: 80px;
 }
 
 .socials i {
-  font-size: xx-large;
-  padding: 20px;
-  color: rgb(78, 76, 76);
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .logo {
-  margin-right: 100px;
+  height: 60px;
 }
 
 .logo img {
-  height: 5rem;
+  height: 100%;
 }
-
+footer nav {
+  height: 100%;
+  padding: 5px;
+}
+footer ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+footer li {
+  height: 20px;
+}
 footer nav ul li a {
   text-decoration: none;
   color: rgb(78, 76, 76);
-  margin-left: 150px;
+  height: 100%;
+  display: block;
+  height: 100%;
+  line-height: 2rem;
 }
 
 #spec {

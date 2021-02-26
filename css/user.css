@@ -1,7 +1,4 @@
-header nav .nav__logo a,
-header nav .nav__user a,
-header nav .nav__login a:first-of-type,
-header nav .nav__login a:last-of-type {
+header nav .nav__logo a, header nav .nav__user a, header nav .nav__login a:first-of-type, header nav .nav__login a:last-of-type {
   display: block;
   text-decoration: none;
   border-radius: 5rem;
@@ -15,12 +12,14 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #fff;
-  border-top: 2px solid #1592ff;
   height: 8rem;
+  color: #4e4c4c;
 }
 footer .socials .fab {
   margin-right: 1rem;
   font-size: 3rem;
+  cursor: pointer;
+  color: #4e4c4c;
 }
 footer .logo {
   height: 6rem;
@@ -46,10 +45,9 @@ footer nav ul li {
 footer nav ul li a {
   display: block;
   text-decoration: none;
-  text-align: center;
   height: 100%;
   line-height: 2rem;
-  color: #18130e;
+  color: #4e4c4c;
 }
 
 header {
@@ -57,7 +55,6 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid #1592ff;
   z-index: 100;
 }
 header nav {
@@ -138,9 +135,10 @@ main {
 main h1 {
   padding: 0.5rem;
   width: 25rem;
-  border: 1px solid black;
+  border: 1px solid #8fcbfc;
   margin-bottom: 2rem;
   text-align: center;
+  color: #1592ff;
 }
 
 /*# sourceMappingURL=user.css.map */
