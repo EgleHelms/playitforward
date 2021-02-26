@@ -1,0 +1,390 @@
+header nav .nav__login a:last-of-type, header nav .nav__login a:first-of-type, header nav .nav__user a, header nav .nav__logo a, .hero a {
+  display: block;
+  text-decoration: none;
+  border-radius: 5rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #1592ff;
+  height: 8rem;
+}
+
+footer .socials .fab {
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+footer .logo {
+  height: 6rem;
+}
+
+footer .logo img {
+  height: 100%;
+}
+
+footer nav {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+footer nav ul {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer nav ul li {
+  height: 2rem;
+}
+
+footer nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  height: 100%;
+  line-height: 2rem;
+  color: #18130e;
+}
+
+header {
+  height: 8rem;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px solid #1592ff;
+  z-index: 100;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 1rem 1rem;
+  background: #fff;
+}
+
+header nav .nav__login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav__login a:last-of-type {
+  width: 10rem;
+  height: 4rem;
+  background-color: #ed4b4b;
+  margin-left: 0.5rem;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+header nav .nav__login a:first-of-type {
+  width: 10rem;
+  height: 4rem;
+  color: #1592ff;
+  border: 1px solid #1592ff;
+  padding: 0 1rem;
+}
+
+header nav .nav__user a {
+  width: 10rem;
+  height: 4rem;
+  background-color: #ed4b4b;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
+header nav .nav__logo a {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav .nav__logo a img {
+  height: 6rem;
+}
+
+.hero {
+  height: 80vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  color: #18130e;
+  padding: 1rem;
+}
+
+.hero h1 {
+  font-family: "Englebert", sans-serif;
+  font-size: 3rem;
+  z-index: 1;
+  color: #1592ff;
+}
+
+.hero a {
+  width: 12rem;
+  height: 5rem;
+  background-color: #ed4b4b;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: 5rem;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero p {
+  width: 40%;
+  padding: 1rem;
+  margin: 3rem 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero img {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 30%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5rem;
+}
+
+.hero img:first-of-type {
+  left: 2rem;
+  top: 3rem;
+  -o-object-position: 50%;
+     object-position: 50%;
+}
+
+.hero img:last-of-type {
+  right: 2rem;
+  bottom: 3rem;
+  -o-object-position: 75%;
+     object-position: 75%;
+}
+
+.stories, .games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 4rem 2rem;
+}
+
+.stories h2, .games h2 {
+  margin: 1rem auto;
+  font-family: "Englebert", sans-serif;
+  font-size: 3rem;
+}
+
+.stories p, .games p {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.stories .stories__img, .games .stories__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35rem;
+  padding: 1rem;
+}
+
+.stories .stories__img img, .games .stories__img img {
+  display: block;
+  margin-bottom: 2rem;
+  height: 80%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto 2rem auto;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.stories .stories__img a, .games .stories__img a {
+  text-decoration: none;
+  background-color: #8fcbfc;
+  color: #fff;
+  font-size: 2rem;
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 0 0 2rem 2rem;
+  cursor: pointer;
+}
+
+.games {
+  background-color: #fff;
+}
+
+.games h2 {
+  margin: 2rem auto;
+}
+
+.games__game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.games__game img {
+  display: block;
+  margin-bottom: 2rem;
+  height: 80%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto 2rem auto;
+  border-radius: 2rem;
+}
+
+@media (min-width: 768px) {
+  .stories, .games {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .stories .stories__img, .games .stories__img {
+    width: 40%;
+  }
+  .stories h2, .games h2 {
+    width: 100%;
+  }
+  .stories p, .games p {
+    width: 100%;
+  }
+}
+
+:root {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
