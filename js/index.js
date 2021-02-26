@@ -39,6 +39,63 @@ const quizData = [
       correct: "d"
   },
 
+  {
+    question: "Which African nation has the most pyramids?",
+    image: "",
+    a: "Lybia",
+    b: "Egypt",
+    c: "Algeria",
+    d: "Sudan",
+    correct: "d"
+},
+
+{
+  question: "Which African nation has the most pyramids?",
+  image: "",
+  a: "Lybia",
+  b: "Egypt",
+  c: "Algeria",
+  d: "Sudan",
+  correct: "d"
+},
+
+{
+  question: "Which African nation has the most pyramids?",
+  image: "",
+  a: "Lybia",
+  b: "Egypt",
+  c: "Algeria",
+  d: "Sudan",
+  correct: "d"
+},
+
+{
+  question: "Which African nation has the most pyramids?",
+  image: "",
+  a: "Lybia",
+  b: "Egypt",
+  c: "Algeria",
+  d: "Sudan",
+  correct: "d"
+},
+{
+  question: "Which African nation has the most pyramids?",
+  image: "",
+  a: "Lybia",
+  b: "Egypt",
+  c: "Algeria",
+  d: "Sudan",
+  correct: "d"
+},
+{
+  question: "Which African nation has the most pyramids?",
+  image: "",
+  a: "Lybia",
+  b: "Egypt",
+  c: "Algeria",
+  d: "Sudan",
+  correct: "d"
+}
 ]
 
 const quiz = document.getElementById("quiz");
@@ -74,25 +131,38 @@ const loadQuiz = () => {
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
 };
-console.log("bla")
 loadQuiz();
 
 const popupno = document.getElementById("popup-no");
 const popupyes = document.getElementById("popup-yes");
 const progress = document.getElementById("progress");
+const progNum = document.querySelector(".progress > p > span");
 
 submitButton.addEventListener("click", () => {
   const answer = getSelected();
   if (answer) {
     if (answer === quizData[currentQuiz].correct) score+=1;
     currentQuiz+=1;
-    progress.value = score++
+    progress.value = score;
+    progNum.innerHTML = `${score}/${quizData.length}`
+
+    if (score === 2){
+      modalShow()
+    }
+    
     if (currentQuiz < quizData.length) loadQuiz();
     else {
       quiz.innerHTML = `
+            <h1>Nice Work!<h1>
             <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-            <button onclick="location.reload()">Reload</button>
-        ` // Reload won't work in CodePen for security reasons;
+            <button onclick="location.reload()">Choose anoter quiz</button>
+            <button id="try_again" onclick="location.reload()">Try again</button>`
     }
   }
 });
+
+const modal = document.getElementById("lab-slide-bottom-popup");
+function modalShow () {
+  modal.classList.remove("hide");
+  modal.classList.add("style");
+}

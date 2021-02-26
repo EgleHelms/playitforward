@@ -1,5 +1,5 @@
 
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;400&display=swap");
 
         * {
           box-sizing: border-box;
@@ -112,7 +112,7 @@
               appearance: none;
               border:none;
               border-radius:10px;  
-              height:10px;
+              height:30px;
           }
           .progress ::-webkit-progress-bar {
                 border-radius: 10px;
@@ -120,4 +120,58 @@
               }  
              .progress ::-webkit-progress-value{
                border-radius: 10px;
+              }
+
+              .style {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: white;
+                border-radius: 10px;;
+                position: absolute;
+                right: -25vh;
+                width: 25vh;
+                height: 80vh;
+                bottom: 10vh;
+                border: 2px solid green;
+                -webkit-animation: slide 0.5s forwards;
+                -webkit-animation-delay: 2s;
+                animation: slide 0.5s forwards;
+                animation-delay: 2s;
+                z-index: 9999;
+              }
+
+              @-webkit-keyframes slide {
+                100% { right: 0 }
+               }
+   
+               @keyframes slide {
+               100% { right: 0; }
+               }
+
+               .style h1, p {
+                margin: 10px;
+                text-align: center;
+               }
+
+               .style p {
+                color: green;
+                font-size: xx-large;
+               }
+
+               .style div {
+                   display: flex;
+                   flex-direction: column;
+               }
+              .style img {
+                  text-align: center;
+                  width: 22vh;
+                  margin: 10px;
+              }
+
+              .style h4 {
+                margin: 10px;
+                text-align: center;
+                line-height: 1.5rem;
               }
