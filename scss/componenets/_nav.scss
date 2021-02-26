@@ -17,7 +17,7 @@ header {
           @extend %a;
           width: 10rem;
           height: 4rem;
-          background-color: $buttuons;
+          background-color: $secondary;
           margin-left: 0.5rem;
           color: #fff;
           margin-left: 1rem;
@@ -26,8 +26,8 @@ header {
           @extend %a;
           width: 10rem;
           height: 4rem;
-          color: $primary;
-          border: 1px solid $primary;
+          color: $secondary;
+          border: 1px solid $secondary;
           padding: 0 1rem;
         }
       }

@@ -75,7 +75,7 @@ header nav .nav__login {
 header nav .nav__login a:last-of-type {
   width: 10rem;
   height: 4rem;
-  background-color: #ed4b4b;
+  background-color: #8fcbfc;
   margin-left: 0.5rem;
   color: #fff;
   margin-left: 1rem;
@@ -83,8 +83,8 @@ header nav .nav__login a:last-of-type {
 header nav .nav__login a:first-of-type {
   width: 10rem;
   height: 4rem;
-  color: #1592ff;
-  border: 1px solid #1592ff;
+  color: #8fcbfc;
+  border: 1px solid #8fcbfc;
   padding: 0 1rem;
 }
 header nav .nav__user span {
@@ -123,18 +123,18 @@ header nav .nav__logo a img {
 }
 .hero h1 {
   font-family: "Englebert", sans-serif;
-  font-size: 3rem;
+  font-size: 7rem;
   z-index: 1;
-  color: #1592ff;
+  color: #26a526;
+  margin-bottom: 4rem;
 }
 .hero a {
   width: 12rem;
   height: 5rem;
-  background-color: #ed4b4b;
-  font-weight: 800;
+  background-color: #1592ff;
   font-size: 2rem;
   margin-left: 0.5rem;
-  border-radius: 2rem;
+  border-radius: 5rem;
   text-align: center;
   line-height: 5rem;
   color: #fff;
@@ -146,6 +146,8 @@ header nav .nav__logo a img {
   margin: 3rem 0;
   text-align: center;
   z-index: 1;
+  font-size: 3rem;
+  margin-bottom: 4rem;
 }
 .hero img {
   display: block;
@@ -163,7 +165,7 @@ header nav .nav__logo a img {
 }
 .hero img:last-of-type {
   right: 2rem;
-  bottom: 3rem;
+  top: 3rem;
   object-position: 75%;
 }
 
@@ -179,7 +181,9 @@ header nav .nav__logo a img {
 .stories h2, .games h2 {
   margin: 1rem auto;
   font-family: "Englebert", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #1592ff;
+  margin: 2rem auto;
 }
 .stories p, .games p {
   text-align: center;
@@ -211,6 +215,9 @@ header nav .nav__logo a img {
   padding: 2rem 0;
   border-radius: 0 0 2rem 2rem;
   cursor: pointer;
+}
+.stories .stories__img a:hover, .games .stories__img a:hover {
+  background-color: #1592ff;
 }
 
 .games {

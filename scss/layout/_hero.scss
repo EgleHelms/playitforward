@@ -7,19 +7,20 @@
   padding: 1rem;
   h1 {
     font-family: $font-header;
-    font-size: 3rem;
+    font-size: 7rem;
     z-index: 1;
-    color: $primary;
+    color: rgb(38, 165, 38);
+    margin-bottom: 4rem;
   }
   a {
     @extend %a;
     width: 12rem;
     height: 5rem;
-    background-color: $buttuons;
-    font-weight: 800;
+    background-color: $primary;
+
     font-size: 2rem;
     margin-left: 0.5rem;
-    border-radius: 2rem;
+    border-radius: 5rem;
     text-align: center;
     line-height: 5rem;
     color: #fff;
@@ -31,6 +32,8 @@
     margin: 3rem 0;
     text-align: center;
     z-index: 1;
+    font-size: 3rem;
+    margin-bottom: 4rem;
   }
   img {
     display: block;
@@ -47,7 +50,7 @@
     }
     &:last-of-type {
       right: 2rem;
-      bottom: 3rem;
+      top: 3rem;
       object-position: 75%;
     }
   }
