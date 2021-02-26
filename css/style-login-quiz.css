@@ -124,7 +124,7 @@ h1 {
           display: flex;
           align-items: center;
           justify-content: center;
-          height: 100vh;
+          height: 88vh;
           overflow: hidden;
         }
 
@@ -212,5 +212,4 @@ h1 {
           background: #486497;
         }
         
-
         

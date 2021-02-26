@@ -40,61 +40,61 @@ const quizData = [
   },
 
   {
-    question: "Which African nation has the most pyramids?",
+    question: "What is the oldest city in the world??",
     image: "",
-    a: "Lybia",
-    b: "Egypt",
-    c: "Algeria",
-    d: "Sudan",
-    correct: "d"
+    a: "Damaskus",
+    b: "Jarusalem",
+    c: "Jericho",
+    d: "Athens",
+    correct: "a"
 },
 
 {
-  question: "Which African nation has the most pyramids?",
+  question: "What is the flattest continent?",
   image: "",
-  a: "Lybia",
-  b: "Egypt",
-  c: "Algeria",
-  d: "Sudan",
-  correct: "d"
+  a: "Africa",
+  b: "Australia",
+  c: "South America",
+  d: "Antarctica",
+  correct: "b"
 },
 
 {
-  question: "Which African nation has the most pyramids?",
+  question: "What is the largest country in South America?",
   image: "",
-  a: "Lybia",
-  b: "Egypt",
-  c: "Algeria",
-  d: "Sudan",
-  correct: "d"
+  a: "Columbia",
+  b: "Argentina",
+  c: "Brazil",
+  d: "Peru",
+  correct: "c"
 },
 
 {
-  question: "Which African nation has the most pyramids?",
+  question: "What is the deepest point in Earth's oceans?",
   image: "",
-  a: "Lybia",
-  b: "Egypt",
-  c: "Algeria",
-  d: "Sudan",
-  correct: "d"
+  a: "Java Trench",
+  b: "Tonga Trench",
+  c: "Marina Trench",
+  d: "Eurasian Basin",
+  correct: "c"
 },
 {
-  question: "Which African nation has the most pyramids?",
+  question: "What is the smallest independent country on Earth?",
   image: "",
-  a: "Lybia",
-  b: "Egypt",
-  c: "Algeria",
-  d: "Sudan",
-  correct: "d"
+  a: "Vatican City",
+  b: "Grenada",
+  c: "Monaco",
+  d: "Nuaru",
+  correct: "a"
 },
 {
-  question: "Which African nation has the most pyramids?",
+  question: "What continent contains the most fresh water?",
   image: "",
-  a: "Lybia",
-  b: "Egypt",
-  c: "Algeria",
-  d: "Sudan",
-  correct: "d"
+  a: "Africa",
+  b: "Antarctica",
+  c: "North America",
+  d: "Asia",
+  correct: "b"
 }
 ]
 
@@ -157,9 +157,8 @@ submitButton.addEventListener("click", () => {
     if (currentQuiz < quizData.length) loadQuiz();
     else {
       quiz.innerHTML = `
-            <h1>Nice Work!<h1>
             <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-            <button onclick="location.reload()">Choose anoter quiz</button>
+            <p id="spec">You donated 2 books to children who need it!</p>
             <button id="try_again" onclick="location.reload()">Try again</button>`
     }
   }
@@ -177,10 +176,10 @@ function modalShow () {
 
 const modal2 = document.getElementById("lab-slide-bottom-popup2");
 function modalShow2 () {
-  modal.classList.remove("hide");
-  modal.classList.add("style");
+  modal2.classList.remove("hide");
+  modal2.classList.add("style");
   setTimeout(function(){
-    modal.classList.add("hide");
-    modal.classList.remove("style");
+    modal2.classList.add("hide");
+    modal2.classList.remove("style");
   }, 5000)
 }
