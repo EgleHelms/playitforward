@@ -145,10 +145,6 @@ submitButton.addEventListener("click", () => {
     currentQuiz+=1;
     progress.value = score;
     progNum.innerHTML = `${score}/${quizData.length}`
-
-    if (score === 2){
-      modalShow()
-    }
     
     if (currentQuiz < quizData.length) loadQuiz();
     else {
@@ -160,9 +156,3 @@ submitButton.addEventListener("click", () => {
     }
   }
 });
-
-const modal = document.getElementById("lab-slide-bottom-popup");
-function modalShow () {
-  modal.classList.remove("hide");
-  modal.classList.add("style");
-}
