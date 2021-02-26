@@ -2,8 +2,8 @@
 @import "../scss/base/mixins";
 @import "../scss/componenets/footer";
 @import "../scss/componenets/nav";
+@import "../scss/layout/cards";
 
-;
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -20,4 +20,20 @@
 body {
   font-size: 1.6rem;
   font-family: $font-text;
+  position: relative;
+}
+.mission {
+  margin: 3rem auto;
+  @include flex(column, center, center);
+  h2 {
+    width: 100%;
+    text-align: center;
+
+    padding: 1rem 0;
+  }
+  p {
+    padding: 1rem 2rem;
+    text-align: justify;
+    max-width: 70rem;
+  }
 }
