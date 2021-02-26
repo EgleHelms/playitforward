@@ -21,11 +21,11 @@ body {
 
 header {
   background-color: white;
-
   height: 80px;
   position: sticky;
   width: 100%;
   top: 0;
+  border-bottom: 3px solid #8fcbfc;
 }
 
 header nav {
@@ -79,7 +79,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 75vh;
+  min-height: 82vh;
   overflow: auto;
   padding: 30px 0;
   margin: 0;
@@ -272,7 +272,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 100px;
 }
 
 .socials i {
@@ -288,6 +288,10 @@ footer {
 .logo img {
   height: 100%;
 }
+
+footer {
+  border-top: 3px solid #8fcbfc;
+}
 footer nav {
   height: 100%;
   padding: 5px;
@@ -300,15 +304,14 @@ footer ul {
   flex-direction: column;
 }
 footer li {
-  height: 20px;
+  height: 5px;
 }
 footer nav ul li a {
   text-decoration: none;
   color: rgb(78, 76, 76);
-  height: 100%;
+
   display: block;
-  height: 100%;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 #spec {
