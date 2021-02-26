@@ -24,11 +24,22 @@ header {
         }
         &:first-of-type {
           @extend %a;
+          width: 10rem;
           height: 4rem;
           color: $primary;
           border: 1px solid $primary;
           padding: 0 1rem;
         }
+      }
+    }
+    .nav__user {
+      a {
+        @extend %a;
+        width: 10rem;
+        height: 4rem;
+        background-color: $buttuons;
+        margin-left: 0.5rem;
+        color: #fff;
       }
     }
     .nav__logo {
