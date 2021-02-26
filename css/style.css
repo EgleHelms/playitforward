@@ -1,4 +1,4 @@
-.hero a, header nav .nav__logo a, header nav .nav__login a:first-of-type, header nav .nav__login a:last-of-type {
+.hero a, header nav .nav__logo a, header nav .nav__user a, header nav .nav__login a:first-of-type, header nav .nav__login a:last-of-type {
   display: block;
   text-decoration: none;
   border-radius: 5rem;
@@ -12,12 +12,14 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #fff;
-  border-top: 2px solid #1592ff;
   height: 8rem;
+  color: #4e4c4c;
 }
 footer .socials .fab {
   margin-right: 1rem;
   font-size: 3rem;
+  cursor: pointer;
+  color: #4e4c4c;
 }
 footer .logo {
   height: 6rem;
@@ -35,7 +37,7 @@ footer nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 footer nav ul li {
   height: 2rem;
@@ -43,10 +45,9 @@ footer nav ul li {
 footer nav ul li a {
   display: block;
   text-decoration: none;
-  text-align: center;
   height: 100%;
   line-height: 2rem;
-  color: #18130e;
+  color: #4e4c4c;
 }
 
 header {
@@ -54,7 +55,6 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid #1592ff;
   z-index: 100;
 }
 header nav {
@@ -81,10 +81,18 @@ header nav .nav__login a:last-of-type {
   margin-left: 1rem;
 }
 header nav .nav__login a:first-of-type {
+  width: 10rem;
   height: 4rem;
   color: #1592ff;
   border: 1px solid #1592ff;
   padding: 0 1rem;
+}
+header nav .nav__user a {
+  width: 10rem;
+  height: 4rem;
+  background-color: #ed4b4b;
+  margin-left: 0.5rem;
+  color: #fff;
 }
 header nav .nav__logo a {
   height: 100%;
