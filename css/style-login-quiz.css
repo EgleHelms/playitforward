@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: grey;
+  font-family: 'Lato', sans-serif;
+}
+
+.login-form {
+  background: #fff;
+  width: 500px;
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  margin-top: -10rem;
+}
+  
+h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+  }
+  
+  .content {
+    padding: 35px;
+    text-align: center;
+  }
+  
+  .input-field {
+    padding: 12px 5px;
+    }
+  
+    input {
+      font-size: 16px;
+      display: block;
+      width: 100%;
+      padding: 10px 1px;
+      border: 0;
+      border-bottom: 1px solid #747474;
+      outline: none;
+      transition: all .2s;
+    }
+
+    .input-field::placeholder {
+      text-transform: uppercase;
+    }
+    
+  a.link {
+    text-decoration: none;
+    color: #747474;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .action {
+    display: flex;
+    flex-direction: row;
+  }
+
+    button {
+      width: 100%;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      background: #e8e9ec;
+      color: #777;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 0;
+      letter-spacing: 0.2px;
+      outline: 0;
+      transition: all .3s;
+      background-color: #ed4b4b;
+      color: #fff;
+      border: none;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-family: inherit;
+      padding: 1.3rem;
+    }
+
+    button a { 
+      color: white;
+      text-decoration: none;
+    }
+
+    button:hover {
+        background: #d8d8d8;
+      }
+      
+    button:nth-child(2) {
+        background: #ed4b4b;
+        color: black;
+        color: #fff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+    }
+    
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          background-color: #b8c6db;
+          background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+
+        }
+
+        main {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 88vh;
+          overflow: hidden;
+        }
+
+
+        header {
+          background-color: white;
+          margin: 0;
+      }
+
+      nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .nav__login {
+          text-decoration: none;
+          color: white;
+          width: 10rem;
+      }
+
+      .nav__login a{
+          background-color: #ed4b4b;
+          width: 10rem;
+          text-decoration: none;
+          color: white;
+          padding: 10px 15px;
+          border-radius: 10px;
+      }
+
+      header img {
+          height: 5rem;
+          margin: 10px;
+          margin-top: 15px;
+          margin-left: 3rem;
+      }
+
+        
+        .quiz-container {
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+          width: 600px;
+          max-width: 95vw;
+          overflow: hidden;
+        }
+        
+        .quiz-header {
+          padding: 4rem;
+        }
+        
+        h2 {
+          padding: 1rem;
+          text-align: center;
+          margin: 0;
+        }
+        
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        ul li {
+          font-size: 1.2rem;
+          margin: 1rem 0;
+        }
+        
+        ul li label {
+          cursor: pointer;
+        }
+        
+        button {
+          background-color: #8fcbfc;
+          color: #fff;
+          border: none;
+          display: block;
+          width: 100%;
+          cursor: pointer;
+          font-size: 1.1rem;
+          font-family: inherit;
+          padding: 1.3rem;
+        }
+        
+        button:hover {
+          background: #486497;
+        }
+        
+        

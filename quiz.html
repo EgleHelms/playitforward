@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography</title>
+    <link rel="stylesheet" href="./css/style-quiz.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav__logo">
+        <a href="index.html"><img src="./assets/logo.png" alt="Logo" /></a>
+      </div>
+      <div class="nav__login">
+        <a href="user-profile.html">My Profile</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="bg-img">
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+              <h2 id="question">Question is loading...</h2>
+              <img>
+              <ul>
+                <li>
+                  <input type="radio" name="answer" id="a" class="answer" />
+                  <label for="a" id="a_text">Answer...</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="b" class="answer" />
+                  <label for="b" id="b_text">Answer...</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="c" class="answer" />
+                  <label for="c" id="c_text">Answer...</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="d" class="answer" />
+                  <label for="d" id="d_text">Answer...</label>
+                </li>
+              </ul>
+            </div>
+            <button id="submit">SUBMIT</button>
+
+            <div class='progress'>
+                <p>Progress <span>1/10</span></p>
+              <progress id="progress" class="value" max="10" value="0"> </progress>
+              </div>
+            </div>
+
+            <div class="buttonGr"> 
+              <button class="btn"> <a href="user-profile.html">My Profile</a></button>
+              <button class="btn"> <a href="user.html">Choose another quiz</a> </button>
+
+            </div>
+          <div class="hide" id="lab-slide-bottom-popup">
+              <img src="./assets/trophy.png" alt="">
+              <h1> Nice Work!</h1>
+              <div>
+                <img src="./assets/jaikishan-patel-x-DkJEpGJ0I-unsplash.jpg">
+                <h4>You have donated a child a book just with your correct answers.</h4>
+                <p>Keep going!</p>
+              </div>
+            </div>
+
+            <div class="hide" id="lab-slide-bottom-popup2">
+              <img src="./assets/trophy.png" alt="">
+              <h1> Nice Work!</h1>
+              <div>
+                <img src="./assets/jaikishan-patel-2eMemvByB-8-unsplash.jpg">
+                <h4>You have donated a child a book just with your correct answers.</h4>
+                <p>Keep going!</p>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="user-profile.html">My Profile</a></li>
+            </ul>
+          </nav>
+          <div class="socials">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="logo"><img src="./assets/logo.png" alt="logo" /></div>
+        </footer>
+
+        <script src="./js/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
