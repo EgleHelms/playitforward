@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 body {
   background: grey;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .login-form {
@@ -20,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
   margin: 10px;
+  margin-top: -10rem;
 }
   
 h1 {
@@ -39,7 +41,6 @@ h1 {
     input {
       font-size: 16px;
       display: block;
-      font-family: 'Rubik', sans-serif;
       width: 100%;
       padding: 10px 1px;
       border: 0;
@@ -52,10 +53,6 @@ h1 {
       text-transform: uppercase;
     }
     
-    .input-field:focus {
-      border-color: #222;
-    }
-  
   a.link {
     text-decoration: none;
     color: #747474;
@@ -73,17 +70,24 @@ h1 {
     button {
       width: 100%;
       border: none;
-      padding: 18px;
-      font-family: 'Rubik', sans-serif;
       cursor: pointer;
       text-transform: uppercase;
       background: #e8e9ec;
       color: #777;
-      border-bottom-left-radius: 4px;
+      border-bottom-left-radius: 10px;
       border-bottom-right-radius: 0;
       letter-spacing: 0.2px;
       outline: 0;
       transition: all .3s;
+      background-color: #ed4b4b;
+      color: #fff;
+      border: none;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-family: inherit;
+      padding: 1.3rem;
     }
 
     button a { 
@@ -96,15 +100,13 @@ h1 {
       }
       
     button:nth-child(2) {
-        background: #2d3b55;
+        background: #ed4b4b;
+        color: black;
         color: #fff;
         border-bottom-left-radius: 0;
-        border-bottom-right-radius: 4px;
+        border-bottom-right-radius: 10px;
     }
     
-    button:hover {
-          background: #3c4d6d;
-        }
 
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
@@ -115,14 +117,51 @@ h1 {
         body {
           background-color: #b8c6db;
           background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
-          font-family: "Poppins", sans-serif;
+
+        }
+
+        main {
           display: flex;
           align-items: center;
           justify-content: center;
           height: 100vh;
           overflow: hidden;
-          margin: 0;
         }
+
+
+        header {
+          background-color: white;
+          margin: 0;
+      }
+
+      nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .nav__login {
+          text-decoration: none;
+          color: white;
+          width: 10rem;
+      }
+
+      .nav__login a{
+          background-color: #ed4b4b;
+          width: 10rem;
+          text-decoration: none;
+          color: white;
+          padding: 10px 15px;
+          border-radius: 10px;
+      }
+
+      header img {
+          height: 5rem;
+          margin: 10px;
+          margin-top: 15px;
+          margin-left: 3rem;
+      }
+
         
         .quiz-container {
           background-color: #fff;
@@ -158,7 +197,7 @@ h1 {
         }
         
         button {
-          background-color: #8e44ad;
+          background-color: #8fcbfc;
           color: #fff;
           border: none;
           display: block;
@@ -170,12 +209,8 @@ h1 {
         }
         
         button:hover {
-          background-color: #732d91;
+          background: #486497;
         }
         
-        button:focus {
-          outline: none;
-          background-color: #5e3370;
-        }
 
         

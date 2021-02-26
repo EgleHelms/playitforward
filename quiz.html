@@ -10,6 +10,17 @@
 
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="nav__logo">
+        <a href="index.html"><img src="./assets/logo.png" alt="Logo" /></a>
+      </div>
+      <div class="nav__login">
+        <a href="user-profile.html">My Profile</a>
+      </div>
+    </nav>
+  </header>
+  <main>
     <div class="bg-img">
         <div class="quiz-container" id="quiz">
             <div class="quiz-header">
@@ -42,20 +53,45 @@
               </div>
             </div>
 
-            <button style="background-color: rgb(122, 122, 122); border-radius: 10px; width: 30vh; margin-top: 10px">Quit the quiz</button>
-            <button style="background-color: rgb(122, 122, 122); border-radius: 10px; width: 30vh; margin-top: 10px">Go to my profile</button>
+            <div class="buttonGr"> 
+              <button class="btn"> <a href=user-profile.html></a>My Profile</button>
+              <button class="btn"> <a href=user.html></a> Choose another quiz</button>
 
-          <div class="style" id="lab-slide-bottom-popup">
+            </div>
+          <div class="hide" id="lab-slide-bottom-popup">
               <img src="./assets/trophy.png" alt="">
               <h1> Nice Work!</h1>
               <div>
-                <img src="./assets/ruthie-a6mfMjCFkII-unsplash.jpg">
+                <img src="./assets/jaikishan-patel-x-DkJEpGJ0I-unsplash.jpg">
+                <h4>You have donated a child a book just with your correct answers.</h4>
+                <p>Keep going!</p>
+              </div>
+            </div>
+
+            <div class="hide" id="lab-slide-bottom-popup2">
+              <img src="./assets/trophy.png" alt="">
+              <h1> Nice Work!</h1>
+              <div>
+                <img src="./assets/jaikishan-patel-2eMemvByB-8-unsplash.jpg">
                 <h4>You have donated a child a book just with your correct answers.</h4>
                 <p>Keep going!</p>
               </div>
             </div>
           </div>
-          
+        </main>
+        <footer>
+          <nav>
+            <ul>
+              <li><a href="#">Menu item</a></li>
+              <li><a href="#">menu item</a></li>
+            </ul>
+          </nav>
+          <div class="socials">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="logo"><img src="#" alt="logo" /></div>
+        </footer>
         <script src="./js/index.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

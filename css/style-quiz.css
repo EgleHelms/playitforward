@@ -1,26 +1,62 @@
 
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;400&display=swap");
-
-        * {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');        * {
           box-sizing: border-box;
           font-family: 'Lato', sans-serif;
+          margin: 0;
         }
         
         body {
           background-color: #b8c6db;
-          background-image: url("../assets/ruthie-a6mfMjCFkII-unsplash.jpg");
+          background:linear-gradient(0deg, rgba(255, 250, 253, 0.486), rgba(236, 231, 231, 0.253)), url(../assets/ruthie-a6mfMjCFkII-unsplash.jpg);
           background-size: cover;
           /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%); */
           font-family: 'Lato', sans-serif;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 100vh;
-          overflow: hidden;
-          margin: 0;
+        }
+
+        header {
+            background-color: white;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav__login {
+            text-decoration: none;
+            color: white;
+            width: 10rem;
+        }
+
+        .nav__login a{
+            background-color: #ed4b4b;
+            width: 10rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+
+        header img {
+            height: 5rem;
+            margin: 10px;
+            margin-top: 15px;
+            margin-left: 3rem;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 89vh;
+            overflow: hidden;
+            margin: 0;
         }
         
         .quiz-container {
+            margin-top: -100px;
           background-color: #fff;
           border-radius: 10px;
           box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
@@ -54,7 +90,7 @@
         }
         
         button {
-          background-color: #8e44ad;
+          background-color: #ed4b4b;
           color: #fff;
           border: none;
           display: block;
@@ -66,12 +102,11 @@
         }
         
         button:hover {
-          background-color: #732d91;
+          background-color:#486497;
         }
         
         button:focus {
           outline: none;
-          background-color: #5e3370;
         }
 
         .hide {
@@ -123,6 +158,10 @@
                border-radius: 10px;
               }
 
+              .hide {
+                  display: none;
+              }
+
               .style {
                 display: flex;
                 flex-direction: column;
@@ -139,7 +178,7 @@
                 -webkit-animation: slide 0.5s forwards;
                 -webkit-animation-delay: 2s;
                 animation: slide 0.5s forwards;
-                animation-delay: 5s;
+                animation-delay: 1s;
                 z-index: 9999;
               }
 
@@ -175,4 +214,17 @@
                 margin: 10px;
                 text-align: center;
                 line-height: 1.5rem;
+              }
+
+              .buttonGr {
+                  display: flex;
+                  justify-content: space-evenly;
+              }
+
+              .btn {
+                background-color: #8fcbfc; 
+                color: white; 
+                border-radius: 10px; 
+                width: 30vh; 
+                margin-top: 10px;
               }

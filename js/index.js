@@ -145,6 +145,14 @@ submitButton.addEventListener("click", () => {
     currentQuiz+=1;
     progress.value = score;
     progNum.innerHTML = `${score}/${quizData.length}`
+
+    if (score === 3){
+      modalShow()
+    }
+
+    if (score === 7) {
+      modalShow2()
+    }
     
     if (currentQuiz < quizData.length) loadQuiz();
     else {
@@ -156,3 +164,23 @@ submitButton.addEventListener("click", () => {
     }
   }
 });
+
+const modal = document.getElementById("lab-slide-bottom-popup");
+function modalShow () {
+  modal.classList.remove("hide");
+  modal.classList.add("style");
+  setTimeout(function(){
+    modal.classList.add("hide");
+    modal.classList.remove("style");
+  }, 5000)
+}
+
+const modal2 = document.getElementById("lab-slide-bottom-popup2");
+function modalShow2 () {
+  modal.classList.remove("hide");
+  modal.classList.add("style");
+  setTimeout(function(){
+    modal.classList.add("hide");
+    modal.classList.remove("style");
+  }, 5000)
+}
