@@ -3,7 +3,7 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid $primary;
+
   z-index: 100;
   nav {
     @include flex(row, center, space-between);
