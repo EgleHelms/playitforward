@@ -3,26 +3,44 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
+  border-bottom: 2px solid $primary;
+  z-index: 100;
   nav {
     @include flex(row, center, space-between);
     height: 100%;
     padding: 1rem 1rem;
-    background: $bgColor;
+    background: #fff;
     .nav__login {
       @include flex(row, center, center);
       a {
-        @extend %a;
-        width: 8rem;
-
-        background-color: $primary;
-        margin-left: 0.5rem;
-
-        color: $textColor;
+        &:last-of-type {
+          @extend %a;
+          width: 10rem;
+          height: 4rem;
+          background-color: $buttuons;
+          margin-left: 0.5rem;
+          color: #fff;
+          margin-left: 1rem;
+        }
+        &:first-of-type {
+          @extend %a;
+          height: 4rem;
+          color: $buttuons;
+          border: 1px solid $buttuons;
+          padding: 0 1rem;
+        }
       }
     }
     .nav__logo {
       a {
         @extend %a;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          height: 6rem;
+        }
       }
     }
   }

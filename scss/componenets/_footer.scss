@@ -1,6 +1,7 @@
 footer {
   @include flex(row, center, space-around);
-  background-color: chartreuse;
+  background-color: #fff;
+  border-top: 2px solid $primary;
   height: 8rem;
   .socials {
     .fab {
@@ -8,9 +9,16 @@ footer {
       font-size: 3rem;
     }
   }
+  .logo {
+    height: 6rem;
+    img {
+      height: 100%;
+    }
+  }
   nav {
     height: 100%;
     padding: 0.5rem;
+
     ul {
       height: 100%;
       list-style: none;
@@ -23,7 +31,7 @@ footer {
           text-align: center;
           height: 100%;
           line-height: 2rem;
-          background-color: azure;
+          color: $textColor;
         }
       }
     }
