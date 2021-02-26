@@ -1,4 +1,7 @@
-header nav .nav__logo a, header nav .nav__user a, header nav .nav__login a:first-of-type, header nav .nav__login a:last-of-type {
+header nav .nav__logo a,
+header nav .nav__user a,
+header nav .nav__login a:first-of-type,
+header nav .nav__login a:last-of-type {
   display: block;
   text-decoration: none;
   border-radius: 5rem;
