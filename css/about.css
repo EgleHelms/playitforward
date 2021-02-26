@@ -1,0 +1,117 @@
+header nav .nav__logo a, header nav .nav__login a:first-of-type, header nav .nav__login a:last-of-type {
+  display: block;
+  text-decoration: none;
+  border-radius: 5rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #1592ff;
+  height: 8rem;
+}
+footer .socials .fab {
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+footer .logo {
+  height: 6rem;
+}
+footer .logo img {
+  height: 100%;
+}
+footer nav {
+  height: 100%;
+  padding: 0.5rem;
+}
+footer nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer nav ul li {
+  height: 2rem;
+}
+footer nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  height: 100%;
+  line-height: 2rem;
+  color: #18130e;
+}
+
+header {
+  height: 8rem;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px solid #1592ff;
+  z-index: 100;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 1rem 1rem;
+  background: #fff;
+}
+header nav .nav__login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav__login a:last-of-type {
+  width: 10rem;
+  height: 4rem;
+  background-color: #ed4b4b;
+  margin-left: 0.5rem;
+  color: #fff;
+  margin-left: 1rem;
+}
+header nav .nav__login a:first-of-type {
+  height: 4rem;
+  color: #ed4b4b;
+  border: 1px solid #8fcbfc;
+  padding: 0 1rem;
+}
+header nav .nav__logo a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav__logo a img {
+  height: 6rem;
+}
+
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=about.css.map */

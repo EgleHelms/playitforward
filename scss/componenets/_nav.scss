@@ -25,8 +25,8 @@ header {
         &:first-of-type {
           @extend %a;
           height: 4rem;
-          color: $buttuons;
-          border: 1px solid $buttuons;
+          color: $primary;
+          border: 1px solid $primary;
           padding: 0 1rem;
         }
       }

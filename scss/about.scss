@@ -1,0 +1,23 @@
+@import "../scss/base/variables";
+@import "../scss/base/mixins";
+@import "../scss/componenets/footer";
+@import "../scss/componenets/nav";
+
+;
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $font-text;
+}
