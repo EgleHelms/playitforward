@@ -7,9 +7,9 @@
   padding: 1rem;
   h1 {
     font-family: $font-header;
-    font-size: 5rem;
+    font-size: 3rem;
     z-index: 1;
-    color: #000;
+    color: $primary;
   }
   a {
     @extend %a;
@@ -26,7 +26,8 @@
     z-index: 1;
   }
   p {
-    width: 50%;
+    width: 40%;
+    padding: 1rem;
     margin: 3rem 0;
     text-align: center;
     z-index: 1;
@@ -42,12 +43,12 @@
     &:first-of-type {
       left: 2rem;
       top: 3rem;
-      object-position: 75%;
+      object-position: 50%;
     }
     &:last-of-type {
       right: 2rem;
       bottom: 3rem;
-      object-position: 50%;
+      object-position: 75%;
     }
   }
 }
