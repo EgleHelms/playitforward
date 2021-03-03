@@ -25,15 +25,18 @@ body {
   margin: auto;
 }
 .achievment__funds {
+  @include flex(column, center, center);
+
   h3 {
     color: $primary;
     font-size: 3rem;
     text-align: center;
+    margin: auto;
     margin-bottom: 2rem;
   }
   ul {
     list-style: none;
-    width: 50%;
+
     margin: auto;
     @include flex(column, flex-start, center);
     li {
