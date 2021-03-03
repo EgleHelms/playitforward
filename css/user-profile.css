@@ -75,7 +75,7 @@ header nav .nav__login {
 header nav .nav__login a:last-of-type {
   width: 10rem;
   height: 4rem;
-  background-color: #ed4b4b;
+  background-color: #8fcbfc;
   margin-left: 0.5rem;
   color: #fff;
   margin-left: 1rem;
@@ -83,8 +83,8 @@ header nav .nav__login a:last-of-type {
 header nav .nav__login a:first-of-type {
   width: 10rem;
   height: 4rem;
-  color: #1592ff;
-  border: 1px solid #1592ff;
+  color: #8fcbfc;
+  border: 1px solid #8fcbfc;
   padding: 0 1rem;
 }
 header nav .nav__user span {
@@ -245,15 +245,21 @@ body {
   margin: auto;
 }
 
+.achievment__funds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .achievment__funds h3 {
   color: #1592ff;
   font-size: 3rem;
   text-align: center;
+  margin: auto;
   margin-bottom: 2rem;
 }
 .achievment__funds ul {
   list-style: none;
-  width: 50%;
   margin: auto;
   display: flex;
   flex-direction: column;
